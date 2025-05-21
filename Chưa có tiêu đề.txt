@@ -57,13 +57,10 @@ Tabs.Main0:AddButton({
     Title="Tyrant",
     Description="chờ ",
     Callback=function()
-    	 getgenv().key = "ZUMA - 3F8L - 1M2P"
-
-getgenv().name = "Tyrant" -- Darkbeard, Doughking, Rip_indra, Tyrant
-
+   getgenv().Mode = "Tyrant" -- rip_indra, Dough King, Pull Lever, TOTS, Darkbeard
+getgenv().Team = "Marines"
 repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
-
-loadstring(game:HttpGet("https://zumaru-33mp.onrender.com/script.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f0952c4a5f3db9e01f4dbd099c1f9b3c.lua"))()
 	    end
 })
 
@@ -71,38 +68,29 @@ Tabs.Main1:AddButton({
     Title="Doughking ",
     Description="chờ",
     Callback=function()
-	  	 getgenv().key = "ZUMA - 3F8L - 1M2P"
-
-getgenv().name = "Doughking" -- Darkbeard, Doughking, Rip_indra, Tyrant
-
+getgenv().Mode = "Dough king" -- rip_indra, Dough King, Pull Lever, TOTS, Darkbeard
+getgenv().Team = "Marines"
 repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
-
-loadstring(game:HttpGet("https://zumaru-33mp.onrender.com/script.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f0952c4a5f3db9e01f4dbd099c1f9b3c.lua"))()
   end
 })
 Tabs.Main1:AddButton({
     Title="Rip_indra ",
     Description="chờ",
     Callback=function()
-	 getgenv().key = "ZUMA - 3F8L - 1M2P"
-
-getgenv().name = "Rip_indra" -- Darkbeard, Doughking, Rip_indra, Tyrant
-
+	 getgenv().Mode = "rip_indra" -- rip_indra, Dough King, Pull Lever, TOTS, Darkbeard
+getgenv().Team = "Marines"
 repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
-
-loadstring(game:HttpGet("https://zumaru-33mp.onrender.com/script.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f0952c4a5f3db9e01f4dbd099c1f9b3c.lua"))()
   end
 })
 Tabs.Main1:AddButton({
     Title="Darkbeard",
     Description="chờ",
     Callback=function()
-	 getgenv().key = "ZUMA - 3F8L - 1M2P"
-
-getgenv().name = "Darkbeard" -- Darkbeard, Doughking, Rip_indra, Tyrant
-
+	 getgenv().Mode = "Darkbeard" -- rip_indra, Dough King, Pull Lever, TOTS, Darkbeard
+getgenv().Team = "Marines"
 repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
-
-loadstring(game:HttpGet("https://zumaru-33mp.onrender.com/script.lua"))()
-  end
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f0952c4a5f3db9e01f4dbd099c1f9b3c.lua"))()
+end
 })
